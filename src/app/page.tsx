@@ -16,7 +16,7 @@ export default function Home() {
         {isSignedIn && (
           <div className="flex items-center gap-4 bg-white/5 backdrop-blur-md p-2 pl-4 rounded-full border border-white/10">
             <span className="text-sm font-bold font-heading italic tracking-tight">DASHBOARD</span>
-            <UserButton afterSignOutUrl="/" />
+            <UserButton />
           </div>
         )}
       </div>
